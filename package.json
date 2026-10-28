@@ -1,0 +1,14 @@
+{
+  "name": "acme-app",
+  "version": "0.4.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Baseline-Demo/acme-app.git"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}

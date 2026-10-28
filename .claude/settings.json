@@ -1,0 +1,25 @@
+{
+  "enabledMcpjsonServers": [
+    "drata-baseline"
+  ],
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "mcp__drata-baseline__account_status",
+      "mcp__drata-baseline__run_baseline",
+      "mcp__drata-baseline__get_snapshot",
+      "mcp__drata-baseline__list_findings",
+      "mcp__drata-baseline__get_fix",
+      "mcp__drata-baseline__apply_fix",
+      "mcp__drata-baseline__draft_evidence",
+      "Bash(npm test)",
+      "Bash(npm test:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git ls-files:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
